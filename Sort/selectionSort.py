@@ -6,6 +6,7 @@
 # O(N^2)
 # Not efficient for big data...
 # Couldn't pass all test cases in Leetcode due to the time limit (exceeded).
+# Leetcode link: https://leetcode.com/problems/sort-an-array/description/
 def selection_sort(array):
     for x in range(len(array)):
         min = array[x]
